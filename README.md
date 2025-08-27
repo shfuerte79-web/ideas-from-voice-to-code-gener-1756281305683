@@ -1,2 +1,39 @@
-# ideas-from-voice-to-code-gener-1756281305683
-```json [ { "title": "Voice-Driven API Builder", "description": "أداة تتيح للمستخدمين إنشاء واجهات برمجة التطبيقات (APIs) من خلال الأوامر الصوتية، مما يسهل على المطورين بناء APIs بسرعة ودون الحاجة لكتابة كود.", "mvp_plan": "1. تطوير واجهة مستخدم بسيطة لتلقي الأوامر الصوتية. 2. استخدام مكتبة تحويل الصوت إلى نص لتحويل الأوامر إلى نص. 3. إنشاء نموذ...
+# Ideas from: Voice-to-Code Generator
+
+```json
+[
+  {
+    title: Voice-Driven API Builder,
+    description: أداة تتيح للمستخدمين إنشاء واجهات برمجة التطبيقات (APIs) من خلال الأوامر الصوتية، مما يسهل على المطورين بناء APIs بسرعة ودون الحاجة لكتابة كود.,
+    mvp_plan: 1. تطوير واجهة مستخدم بسيطة لتلقي الأوامر الصوتية. 2. استخدام مكتبة تحويل الصوت إلى نص لتحويل الأوامر إلى نص. 3. إنشاء نموذج أولي لإنشاء API بسيط بناءً على الأوامر المدخلة.
+  },
+  {
+    title: Voice-Activated Debugging Assistant,
+    description: أداة تساعد المطورين على تصحيح الأخطاء في الكود من خلال الأوامر الصوتية، مما يسهل عليهم تحديد المشكلات وإصلاحها دون الحاجة للكتابة.,
+    mvp_plan: 1. بناء واجهة مستخدم لاستقبال الأوامر الصوتية. 2. تطوير خوارزمية لتحديد الأخطاء الشائعة في الكود. 3. إنشاء نموذج أولي يمكنه تلقي أوامر مثل ابحث عن الأخطاء في السطر 10 وتقديم اقتراحات.
+  },
+  {
+    title: Voice-Based Code Review Tool,
+    description: أداة تتيح للمستخدمين إجراء مراجعات للكود عبر الأوامر الصوتية، مما يسهل عملية التعاون بين الفرق ويزيد من كفاءة المراجعة.,
+    mvp_plan: 1. إنشاء واجهة مستخدم بسيطة لاستقبال الأوامر الصوتية. 2. تطوير خوارزمية لتحليل الكود وتقديم ملاحظات بناءً على الأوامر الصوتية. 3. بناء نموذج أولي يمكنه تلقي أوامر مثل مراجعة الكود في الملف X وتقديم تعليقات.
+  }
+]
+```
+
+## Getting Started
+
+1. Clone this repository
+2. Install dependencies: `npm install`
+3. Set up your environment variables (copy `.env.example` to `.env.local`)
+4. Run the development server: `npm run dev`
+
+## Features
+
+- Authentication with Supabase
+- Modern UI with Tailwind CSS
+- TypeScript support
+- Automated CI/CD
+
+## Deployment
+
+This app is automatically deployed with Vercel when you push to the main branch.
